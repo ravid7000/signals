@@ -1,0 +1,21 @@
+{
+  "name": "signals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter website dev",
+    "build:core": "pnpm --filter core build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "type": "module",
+  "packageManager": "pnpm@9.12.1",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
+}
