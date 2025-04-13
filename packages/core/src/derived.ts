@@ -1,5 +1,5 @@
 import { effect } from './effect';
-import { Signal } from './Signal';
+import { Signal } from './signal';
 
 export function derived<R>(fn: () => R) {
   if (typeof fn !== 'function') {
